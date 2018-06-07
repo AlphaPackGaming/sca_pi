@@ -1,7 +1,14 @@
 #!/bin/bash
 
-let  a=5%2
+counter=3
 
-echo $a
+while [ $counter -le 21 ] 
+
+    do 
+          echo $counter
+          ((counter = $counter+3))
+    done
+
+echo "All done!"
 
 

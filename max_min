@@ -1,0 +1,19 @@
+#!/usr/bin/env python 
+
+a = raw_input ( 'Please enter an integer:' )
+b = raw_input( 'Please enter another integer:' )
+
+if a > b:
+    print "The maximum is",a
+    print "The minimum is" ,b 
+    print "maximum - minimum =" ,int(a) - int(b)
+else: 
+    print "The maximum is" ,b
+    print "The minimum is" ,a
+    print "maximum - minimum =" ,int(b) - int(a)
+if a == b:
+    print "The two integers are equal with a value of" ,a 
+
+
+
+       
